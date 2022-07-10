@@ -7,24 +7,4 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/firstFrag"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        class="com.neppplus.fragmentpractice_20220710.FirstFragment">
-
-    </fragment>
-
-    <fragment
-        android:tag="second"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        class="com.neppplus.fragmentpractice_20220710.SecondFragment"/>
-
-    <fragment
-        android:id="@+id/thirdFrag"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        class="com.neppplus.fragmentpractice_20220710.ThirdFragment"/>
-
 </LinearLayout>
